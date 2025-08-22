@@ -1,0 +1,114 @@
+*{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 0;
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+  
+}
+nav i{
+  font-size: 40px;
+}
+  
+nav h6{
+    font-size:30px;
+}
+.home-container{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 2px;
+
+}
+.images{
+    width: 200px;
+    height: 300px;
+}
+.box h3,p{
+    text-align: center;
+    
+}
+.home-containers{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 2px;
+
+}
+.numbers{
+    margin-top: 30px;
+    display: flex;
+     justify-content:center;
+  
+  
+}
+.number{
+    padding:0px 8px 0px 8px;
+}
+.numbers .number:hover {
+    background-color: black;
+    color: bisque;
+    
+}
+#one{
+   background-color: black;
+   color: aliceblue;
+}
+#about{
+    margin-top: 60px;
+    text-align: center;
+}
+#about h3{
+     font-size: 20px;
+
+}
+#about h2{
+     font-size: 20px;
+     margin-top:30px ;
+
+}
+.footer-section{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 60px;
+  margin-left: 30px;
+}
+.image1{
+    height: 100px;
+    width: 100px;
+}
+.bottom-p{
+    text-align: left;
+}
+.bottom li{
+     list-style: none;
+}
+#bott h6{
+    font-size: 20px;
+}
+#bott p{
+    text-align: justify;
+}
+#botto h6{
+    font-size: 20px;
+}
+#botto li{
+     list-style: none;
+     margin-left: 0px;
+     margin-right: 30px;
+}
+#botto img{
+    margin-left: 0px;
+    margin-right: 19px;
+}
+#bottom li{
+    background-color: gray;
+    color: beige;
+    border: 2px solid black;
+    display: inline;
+}
+#botto span{
+    margin-top: 10px;
+}
