@@ -18,7 +18,7 @@ nav h6{
 }
 .home-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-right: 2px;
 
 }
@@ -67,48 +67,52 @@ nav h6{
 #about h2{
      font-size: 20px;
      margin-top:30px ;
+}
 
+
+.footersec{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:30px;
 }
-.footer-section{
-  display: grid;
-  grid-template-columns: auto auto auto;
-  margin-top: 60px;
-  margin-left: 30px;
+.smaefooter{
+    width: 250px;
+    height: 250px;
 }
-.image1{
-    height: 100px;
-    width: 100px;
-}
-.bottom-p{
+.smaefooter p{
     text-align: left;
+    font-size: 15px;
 }
-.bottom li{
-     list-style: none;
+.blogimg{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto a auto;
+    gap: 2px;}
+.forfirst{
+    display: flex;
+    justify-content: center;
+    margin-left: -25px;
 }
-#bott h6{
-    font-size: 20px;
+.blogimg img{
+     width: 100px;
+     height: 100px;
 }
-#bott p{
-    text-align: justify;
+.blogimg p{
+    margin-left: 10px;
+    
 }
-#botto h6{
-    font-size: 20px;
-}
-#botto li{
-     list-style: none;
-     margin-left: 0px;
-     margin-right: 30px;
-}
-#botto img{
-    margin-left: 0px;
-    margin-right: 19px;
-}
-#bottom li{
+.footersec span{
+    border: 1px solid black;
     background-color: gray;
-    color: beige;
-    border: 2px solid black;
-    display: inline;
+    color: aliceblue;
+    padding: -4px 5px 5px 5px;
+    margin: 4px 4px 4px 4px;
 }
-#botto span{
-    margin-top: 10px;
+.footersec a{
+    color: black;
+  
+}
+#travel{
+    background-color: black;
+    color: antiquewhite;
 }
